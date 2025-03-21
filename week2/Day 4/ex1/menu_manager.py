@@ -8,7 +8,7 @@ class MenuManager:
             conn = psycopg2.connect(
                 dbname="restaurant",
                 user="postgres",
-                password="your_password",
+                password="azer2000",
                 host="localhost"
             )
             cur = conn.cursor()
@@ -31,7 +31,7 @@ class MenuManager:
             conn = psycopg2.connect(
                 dbname="restaurant",
                 user="postgres",
-                password="your_password",
+                password="azer2000",
                 host="localhost"
             )
             cur = conn.cursor()
